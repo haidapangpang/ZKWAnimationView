@@ -1,11 +1,8 @@
 #import "ViewController.h"
 #import "ZKWAnimationView.h"
 @interface ViewController ()<ZKWAnimationViewDelegate>
-
 @end
-
 @implementation ViewController
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     ZKWAnimationView * shareView = [[ZKWAnimationView alloc]initWithFrame:CGRectMake(0, 100, self.view.bounds.size.width, 400)];
